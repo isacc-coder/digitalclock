@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import Top from './component/Top'
+import Break from './component/Break'
+import Play from './component/Play'
+import Seation from './component/Seation'
+import Total from './component/Total'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Top/>
+    <Break/>
+    <Seation/>
+    <Total/>
+     <Play/>
+     <p>Design and Code By</p>
+     <a>Isacc firew</a>
     </div>
   );
 }

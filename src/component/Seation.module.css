@@ -1,0 +1,40 @@
+.Seation .Container{
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  margin: 100px;
+  
+}
+.Container .up{
+  display: flex;
+  margin: 20px;
+  padding: 50px;
+  top: 30%;
+  position: absolute;
+  
+}
+.Container .down{
+  position: absolute;
+  margin: 20px;
+  top: 50%;
+  padding: 11px;
+
+
+}
+@media (max-width:900px){
+  .Seation .Container{
+    margin-right: 50%;
+  }
+   .Container .up{
+     margin-top: 70%;
+     padding: 1%;
+     margin-left: 2%;
+     
+   }
+    .Container .down{
+      padding:10px
+    }
+     .Container h2{
+       margin-left: 40%;
+     }
+}

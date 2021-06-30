@@ -1,0 +1,42 @@
+
+.Break .Container{
+       position: absolute;
+       left: 10%;
+       top: 10%;
+       margin: 100px;
+       
+}
+.Container .up{
+    display: flex;
+    margin: 20px;
+    padding: 50px;
+    top: 30%;
+    position: absolute;
+    
+    
+}
+.Container .down{
+    position: absolute;
+    margin: 10px;
+    top: 55%;
+    padding: 11px;
+   
+
+}
+@media (max-width:900px){
+    .Break .Container{
+      margin-left: 40%;
+    }
+    .Container .up{
+        margin-left: 10%;
+        padding: 1%;
+        margin-top: 40%;
+    }
+    .Container .down{
+        padding: 5%;
+        margin-left: 10%;
+    }
+    .Container h2{
+        justify-content: center;
+    }
+}
